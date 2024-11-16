@@ -24,3 +24,22 @@ h1 {
 .divPrin:active {
     scale: 1;
 }
+
+
+.divP1 {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+.divP1 img {
+    width: 250px;
+    height: auto;
+}
+.divP1 img:active{
+    scale: 1.01;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}
+.bordeP1 {
+    border: solid red 2px;
+}
