@@ -43,10 +43,29 @@
 
     
 //Problema I
-imgP1 = document.querySelector("#imgP1");
+const imgP1 = document.querySelector("#imgP1");
 imgP1.addEventListener("click",()=>{
 -       imgP1.classList.toggle('bordeP1');
     });
 //
+
+//Problema II
+const btnP2 = document.querySelector("#btnP2");
+const pP2 = document.querySelector("#pP2");
+btnP2.addEventListener("click", ()=>{
+    console.log("adasdsad")
+    cant1 = document.querySelector("#cant1").value;
+    cant2 = document.querySelector("#cant2").value;
+    cant3 = document.querySelector("#cant3").value;
+    total = cant1 + cant2 + cant3;
+    pP2.innerHTML = 'Llevas '+ total +' stiker <br>'+
+                    'stickers 1: ' + cant1 +
+                    'stickers 2: ' + cant2 +
+                    'stickers 3: ' + cant3;
+    console.log(total);
+    console.log(cant1);
+    console.log(cant2);
+    console.log(cant3);
+});
 
 
